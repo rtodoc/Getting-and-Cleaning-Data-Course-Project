@@ -3,6 +3,7 @@ Peer-graded Assignment: Getting and Cleaning Data Course Project
 
 This repository is all about creation of tidy data set using "Human Activity Recognition Using Smartphones Data Set".
 A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 The goal of project is to create tidy data set with the average of each variable for each activity and each subject.
 
 Here are the content of the repository:
