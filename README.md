@@ -9,4 +9,4 @@ Here are the content of the repository:
 - `README.md` = The file contains the goal of the repository.
 - `CodeBook.md` = A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
 - `run_analysis.R` = The R script used in creating the tidy data set.
-- `tidy_data.txt` = The tidy data set whic is an out put of the run_analysis.R.
+- `tidy_data_set.txt` = The tidy data set whic is an out put of the run_analysis.R.
