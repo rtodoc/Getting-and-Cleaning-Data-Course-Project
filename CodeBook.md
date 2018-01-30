@@ -13,15 +13,19 @@ Full description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognit
 - x_test = storage for reading x_test.txt
 - y_test = storage for reading y_test.txt
 - subject_test = storage for reading subject_test.txt
-- x_data = storage for combining x data set (x_train, x_test)
-- y_data = storage for combining x data set (y_train, y_test)
-- subject_data = storage for combining x data set (subject_train, subject_test)
+- x_data = storage for combining x data set using (x_train, x_test)
+- y_data = storage for combining x data set using (y_train, y_test)
+- subject_data = storage for combining subject data set using (subject_train, subject_test)
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 - features = storage for reading the vector features.txt
 - mean_and_std_features = storage for columns with mean or std in their names using Pattern Matching And Replacement (grep)
 
 3. Uses descriptive activity names to name the activities in the data set
-- activityLabels 
+- activityLabels = storage for reading activity_labels.txt
 
+4. Appropriately labels the data set with descriptive variable names.
+- all_data = storage for combining x_data, y_data and subject_data
 
+4. Appropriately labels the data set with descriptive variable names.
+- averages_data = storage for combining x_data, y_data and subject_data
