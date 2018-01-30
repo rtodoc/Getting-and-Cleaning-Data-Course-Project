@@ -59,6 +59,8 @@ activityLabels = read.table('./data/UCI HAR Dataset/activity_labels.txt')
 # update values with correct activity names
 y_data[, 1] <- activityLabels[y_data[, 1], 2]
 
+# correct column name
+names(y_data) <- "activity"
 
 #4.Appropriately labels the data set with descriptive variable names.
 ###############################################################################
@@ -68,8 +70,6 @@ names(subject_data) <- "subject"
 
 # bind all the data in a single data set
 all_data <- cbind(x_data, y_data, subject_data)
-# correct column name
-names(y_data) <- "activity"
 
 
 ###############################################################################
